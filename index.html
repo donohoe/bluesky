@@ -1,0 +1,18 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
+	<style>body { overflow: hidden; height: 100vh; width: 100vw; }</style>
+	<title>Hello</title>
+</head>
+<body>
+	<div style="font-size: 96px; text-align: center; width: 100%; margin-top: 33vh;">&nbsp;</div>
+	<script>
+		(function(){
+			document.title = document.querySelector('div').innerHTML = '&#' + [ 9731, 8486, 9730, 9733, 9760, 9827, 9832, 9874, 9988, 9996, 10006 ].sort(function() {
+				return .5 - Math.random();
+			})[0] + ';';
+			console.log('All your base are belong to us');
+		})()
+	</script>
+</body>
+</html>
