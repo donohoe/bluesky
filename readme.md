@@ -30,6 +30,7 @@ Here are a few changes that I'd welcome, and eventually plan to make:
 * Support for OpenGraph scraping of link URLs to pre-populate the title, description, and image fields
 * Support for multiple images
 * Fix typos. I'm so sorry. You'd think after all these years I'd be better...
+* Improved error handling, and a better way to handle output when you do run the code
 
 Suggestions are welcome too.
 
